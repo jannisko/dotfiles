@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/docker-existing-dockerfile
+{
+	"name": "Python devcontainer",
+
+	"context": "..",
+	"dockerFile": "./Dockerfile",
+
+
+	"settings": { 
+		"terminal.integrated.shell.linux": null
+	},
+
+	"remoteUser": "jannis",
+
+	"extensions": [
+		"ms-python.python"
+	]
+		
+}

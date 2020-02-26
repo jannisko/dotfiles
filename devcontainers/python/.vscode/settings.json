@@ -1,0 +1,4 @@
+{
+    // python 3.7 image uses wrong pythonPath by default
+    "python.pythonPath": "/usr/local/bin/python"
+}
